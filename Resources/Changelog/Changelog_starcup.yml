@@ -1610,3 +1610,11 @@
   id: 8250
   time: '2025-10-21T08:15:36.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/525
+- author: little-meow-meow
+  changes:
+  - message: You no longer need to close the mining shuttle console window after opening
+      it for the first time.
+    type: Fix
+  id: 8251
+  time: '2025-10-21T08:43:56.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/527
