@@ -1677,3 +1677,25 @@
   id: 8259
   time: '2025-10-27T10:22:30.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/542
+- author: SubspaceEmber
+  changes:
+  - message: Resprited nearly every airlock
+    type: Tweak
+  - message: Resprited holofan
+    type: Tweak
+  - message: Resprited RCD wheel icons to match airlocks
+    type: Tweak
+  - message: Constructed airlocks now start unpainted
+    type: Tweak
+  - message: Added new airlocks to spray painter
+    type: Tweak
+  id: 8260
+  time: '2025-10-27T12:56:48.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/539
+- author: foxcurl
+  changes:
+  - message: Envelopes and parcel wrap are now available in the CourierDrobe.
+    type: Tweak
+  id: 8261
+  time: '2025-10-30T00:41:44.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/548
