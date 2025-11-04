@@ -1741,3 +1741,17 @@
   id: 8266
   time: '2025-11-04T11:29:01.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/528
+- author: princesspengy
+  changes:
+  - message: hollow trees now spawn slimes and corpses slightly less frequently
+    type: Tweak
+  - message: charonic slimes' health and damage have both been dropped
+    type: Tweak
+  - message: the water on charon-epsilon now deals less caustic damage
+    type: Tweak
+  - message: puddles spawned by hollow trees are now bigger depending on the reagent
+      produced
+    type: Tweak
+  id: 8267
+  time: '2025-11-04T13:32:21.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/560
