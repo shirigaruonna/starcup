@@ -2,7 +2,7 @@ using Content.Server.Administration.Logs;
 using Content.Server.Cargo.Components;
 using Content.Server.Stack;
 using Content.Shared._EE.Silicon.BlindHealing;
-using Content.Shared.Damage;
+using Content.Shared.Damage.Components;
 using Content.Shared.Database;
 using Content.Shared.DoAfter;
 using Content.Shared.Eye.Blinding.Components;
