@@ -9,7 +9,8 @@ using Content.Shared.Anomaly.Components;
 using Content.Shared.Anomaly.Effects;
 using Content.Shared.Body.Components;
 using Content.Shared.Chat;
-using Content.Shared.Damage; // starcup
+using Content.Shared.Damage.Components;
+using Content.Shared.Damage.Systems; // starcup
 using Content.Shared.Database;
 using Content.Shared.Mobs;
 using Content.Shared.Popups;
