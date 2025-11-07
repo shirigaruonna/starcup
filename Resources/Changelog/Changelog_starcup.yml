@@ -1763,3 +1763,10 @@
   id: 8268
   time: '2025-11-05T13:35:10.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/547
+- author: little-meow-meow
+  changes:
+  - message: Pain popups are no longer visible to everyone else.
+    type: Fix
+  id: 8269
+  time: '2025-11-07T00:35:19.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/561
