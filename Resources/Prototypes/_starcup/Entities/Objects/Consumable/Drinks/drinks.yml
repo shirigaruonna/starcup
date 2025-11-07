@@ -13,7 +13,7 @@
         maxVol: 20
   - type: SolutionContainerVisuals
     maxFillLevels: 6
-    fillBaseName: fill
+    fillBaseName: fill-
     inHandsMaxFillLevels: 2
     inHandsFillBaseName: -fill-
   - type: Tag
@@ -36,7 +36,7 @@
         maxVol: 15
   - type: SolutionContainerVisuals
     maxFillLevels: 3
-    fillBaseName: fill
+    fillBaseName: fill-
     inHandsMaxFillLevels: 1
     inHandsFillBaseName: -fill-
   - type: Tag
@@ -59,7 +59,7 @@
         maxVol: 30
   - type: SolutionContainerVisuals
     maxFillLevels: 9
-    fillBaseName: fill
+    fillBaseName: fill-
     inHandsMaxFillLevels: 3
     inHandsFillBaseName: -fill-
   - type: Tag
