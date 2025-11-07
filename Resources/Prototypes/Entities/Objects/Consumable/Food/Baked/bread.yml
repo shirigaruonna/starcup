@@ -1045,8 +1045,8 @@
     tags:
     - ClothMade
   - type: Item
-    size: Small
-    storedOffset: -1,0
+    size: Tiny # starcup: Small -> Tiny (to fit space medipen in boxes)
+    #storedOffset: -1,0 # starcup
     heldPrefix: batard-cotton
   - type: SolutionContainerManager
     solutions:
