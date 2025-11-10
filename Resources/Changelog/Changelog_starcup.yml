@@ -1791,3 +1791,18 @@
   id: 8271
   time: '2025-11-09T05:37:46.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/555
+- author: princesspengy
+  changes:
+  - message: many, many day 1 fixes and adjustments for crux station, adding things
+      that were missing like the crew monitoring console and the mining shuttle! thank
+      you so very much to everyone who participated in the debut shift
+    type: Fix
+  - message: the special hazard in crux's maintenance has been adjusted to hopefully
+      be a little more telegraphed
+    type: Tweak
+  - message: lightly renovated crux's engineering department! in addition to an aesthetic
+      upgrade all around, the TEG and PA workspaces are now a little less unfinished
+    type: Tweak
+  id: 8272
+  time: '2025-11-10T10:55:31.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/566
