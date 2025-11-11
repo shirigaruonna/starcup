@@ -139,14 +139,16 @@
     back:
     - BibleNarsie
 
-- type: loadout
-  id: BibleHonk
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: ClownBibleRequirement
-  storage:
-    back:
-    - BibleHonk
+# begin starcup: removed for tone
+#- type: loadout
+#  id: BibleHonk
+#  effects:
+#  - !type:GroupLoadoutEffect
+#    proto: ClownBibleRequirement
+#  storage:
+#    back:
+#    - BibleHonk
+# end starcup
 
 - type: loadout
   id: BibleRatvar
