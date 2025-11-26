@@ -1933,3 +1933,12 @@
   id: 8287
   time: '2025-11-26T03:47:59.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/594
+- author: princesspengy
+  changes:
+  - message: you can now make chocolate lava tarts out of imitation chocolate
+    type: Add
+  - message: changed the flavor text for imitation chocolate
+    type: Tweak
+  id: 8288
+  time: '2025-11-26T03:49:00.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/593
