@@ -1942,3 +1942,11 @@
   id: 8288
   time: '2025-11-26T03:49:00.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/593
+- author: princesspengy
+  changes:
+  - message: felinids no longer have a lower stamina crit threshold than all other
+      species
+    type: Tweak
+  id: 8289
+  time: '2025-11-26T03:56:14.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/588
