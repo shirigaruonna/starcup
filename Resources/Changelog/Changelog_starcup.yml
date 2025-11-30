@@ -1989,3 +1989,11 @@
   id: 8294
   time: '2025-11-29T18:56:26.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/603
+- author: princesspengy
+  changes:
+  - message: crux station has received another wave of fixes! notably, the security
+      cameras should now be labeled
+    type: Fix
+  id: 8295
+  time: '2025-11-30T02:10:34.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/605
