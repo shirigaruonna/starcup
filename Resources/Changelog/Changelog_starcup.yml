@@ -2068,3 +2068,10 @@
   id: 8301
   time: '2025-12-03T19:29:01.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/578
+- author: sleepywolfie
+  changes:
+  - message: added extra cleaning supplies to Byoin departments
+    type: Tweak
+  id: 8302
+  time: '2025-12-03T20:28:07.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/616
