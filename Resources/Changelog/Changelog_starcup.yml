@@ -2025,3 +2025,17 @@
   id: 8299
   time: '2025-12-03T04:50:47.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/613
+- author: Psymbiote
+  changes:
+  - message: Spray painter will now display names correctly and paint the correct
+      textures on the command glass airlock and captain, HoP and rep lockers.
+    type: Fix
+  - message: Salvager demo charge no longer has 'NT' written on it.
+    type: Fix
+  - message: A new snake offset cane to replace NT's. Glory to the Syndicate!
+    type: Add
+  - message: Delta-V's lockers added to the spray painter menu!
+    type: Add
+  id: 8300
+  time: '2025-12-03T19:10:02.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/595
