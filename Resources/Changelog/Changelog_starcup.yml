@@ -2039,3 +2039,32 @@
   id: 8300
   time: '2025-12-03T19:10:02.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/595
+- author: Psymbiote
+  changes:
+  - message: Variant wrench and flashlights appearances.
+    type: Add
+  - message: A pipe wrench. Works like a wrench, but hits a bit slower and a bit harder.
+      Loosen and bonk any force that opposes you.
+    type: Add
+  - message: A big flashlight. Luminous like a seclite, but is not contraband or useful
+      in combat.
+    type: Add
+  - message: Two new axes, the brush axe and the crash axe. The brush axe works like
+      a less effective chopping axe, the crash axe is both a hatchet and crowbar,
+      and slightly less than either.
+    type: Add
+  - message: Feather duster as and RP-based variants for the wire brush. The feather
+      duster hits fast and deals no damage. Dust your friends!
+    type: Add
+  - message: Broom as another RP-based variant for the wire brush. Don't hit your
+      friends with this one, you *will* hurt them.
+    type: Add
+  - message: Lowered hatchet and spade damage a little. Hatchets aren't used for stabbing
+      people, spades shouldn't hit that hard.
+    type: Tweak
+  - message: Hitting someone with a hatchet or a scythe now sounds like you're slashing
+      them with a sharp blade.
+    type: Tweak
+  id: 8301
+  time: '2025-12-03T19:29:01.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/578
