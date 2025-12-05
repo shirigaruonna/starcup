@@ -2091,3 +2091,11 @@
   id: 8304
   time: '2025-12-05T18:16:12.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/617
+- author: princesspengy
+  changes:
+  - message: cutting or pulsing an airlock's power wires without protection will now
+      actually cut/pulse the wire (but it will still shock you, watch out!)
+    type: Tweak
+  id: 8305
+  time: '2025-12-05T18:27:50.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/618
