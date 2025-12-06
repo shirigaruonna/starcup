@@ -2131,3 +2131,10 @@
   id: 8308
   time: '2025-12-06T03:37:07.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/614
+- author: Psymbiote
+  changes:
+  - message: Feather duster now cleans grime like a wire brush.
+    type: Fix
+  id: 8309
+  time: '2025-12-06T05:58:12.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/621
