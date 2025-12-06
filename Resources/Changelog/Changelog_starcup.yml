@@ -2122,3 +2122,12 @@
   id: 8307
   time: '2025-12-06T02:41:58.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/604
+- author: KoboldCatgirl
+  changes:
+  - message: Added new RP chems and the Depression trait!
+    type: Add
+  - message: Added the Caramexinin med for the theobromine-intolerant!
+    type: Add
+  id: 8308
+  time: '2025-12-06T03:37:07.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/614
