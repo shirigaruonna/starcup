@@ -2249,3 +2249,11 @@
   id: 8320
   time: '2025-12-22T20:52:01.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/632
+- author: KoboldCatgirl
+  changes:
+  - message: Adjusted spray painter pipe color options to be more distinct and added
+      new color options.
+    type: Add
+  id: 8321
+  time: '2025-12-23T23:36:48.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/641
