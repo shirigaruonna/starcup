@@ -2304,3 +2304,28 @@
   id: 8326
   time: '2025-12-29T10:04:47.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/633
+- author: Eagle0600, meowyrm, chlymerine
+  changes:
+  - message: Multi-tiered celebration and wedding cakes. Don't wait for a wedding,
+      any excuse will do.
+    type: Add
+  - message: Butter can now be ground for liquid butter. Please remember that the
+      'pure liquid butter' diet is only recommended by 1/10 doctors.
+    type: Tweak
+  id: 8327
+  time: '2025-12-30T05:56:55.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/647
+- author: beck-thompson, deltanedas, Oxdeception
+  changes:
+  - message: Fixed being able to immediately respawn after observing, it now has a
+      cooldown like dying.
+    type: Fix
+  - message: Respawn timer now works when observing
+    type: Fix
+  - message: Respawn timer now shows minutes instead of just seconds
+    type: Tweak
+  - message: Respawn timer has been reduced to 5 minutes
+    type: Tweak
+  id: 8328
+  time: '2025-12-30T05:56:55.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/651
