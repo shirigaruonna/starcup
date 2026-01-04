@@ -2417,3 +2417,12 @@
   id: 8337
   time: '2026-01-03T09:06:12.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/659
+- author: KoboldCatgirl
+  changes:
+  - message: Removed roundstart shadow anomalies from the Latestart gamemode.
+    type: Remove
+  - message: increased Latestart's arrival shuttle time from 1 minute to 4 minutes.
+    type: Tweak
+  id: 8338
+  time: '2026-01-04T06:42:56.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/661
