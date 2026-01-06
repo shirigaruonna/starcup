@@ -2442,3 +2442,19 @@
   id: 8340
   time: '2026-01-06T03:45:57.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/664
+- author: foxcurl
+  changes:
+  - message: The Research Director and Chief Medical Officer now have Externals access.
+    type: Tweak
+  id: 8341
+  time: '2026-01-06T03:57:57.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/663
+- author: Oxdeception
+  changes:
+  - message: The supply account should now receive the full value of transactions
+      instead of half. Restitution for the stolen funds is not available to employees
+      or contractors at this time.
+    type: Fix
+  id: 8342
+  time: '2026-01-06T03:57:57.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/662
