@@ -2434,3 +2434,11 @@
   id: 8339
   time: '2026-01-04T06:49:50.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/660
+- author: foxcurl
+  changes:
+  - message: MKCs can no longer take the narcolepsy trait, as it does not work properly
+      on them.
+    type: Tweak
+  id: 8340
+  time: '2026-01-06T03:45:57.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/664
