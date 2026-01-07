@@ -2489,3 +2489,11 @@
   id: 8346
   time: '2026-01-07T06:11:25.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/668
+- author: Eightballll
+  changes:
+  - message: Ported Jaegermister and its resulting cocktails (as well as chartruse)
+      from DenStation!
+    type: Add
+  id: 8347
+  time: '2026-01-07T06:23:42.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/669
