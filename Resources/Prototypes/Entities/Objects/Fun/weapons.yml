@@ -15,7 +15,7 @@
   parent: [ BaseItem, BaseToyGun ]
   id: FoamCrossbow
   name: foam crossbow
-  description: Aiming this at Security may get you filled with lead.
+  description: Old-fashioned weaponry meets space-age foam blasting technology! # starcup: rewritten for tone
   components:
   - type: Sprite
     sprite: Objects/Fun/Foam/foam_crossbow.rsi
@@ -177,7 +177,7 @@
   parent: [ BaseItem, BaseToySword ]
   id: FoamBlade
   name: foamblade
-  description: It says "Sternside Changs number 1 fan" on it.
+  description: Made for children ages 8 and up. But are you really going to let that stop you? # starcup: rewritten for tone
   components:
   - type: Sprite
     sprite: Objects/Fun/Foam/foam_blade.rsi
