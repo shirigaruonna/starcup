@@ -58,11 +58,15 @@ public sealed class SiliconChargeSystem : EntitySystem
         if (!HasComp<SiliconComponent>(silicon))
             return false;
 
-
         // try get a battery directly on the inserted entity
-        if (TryComp(silicon, out batteryComp)
-            || _powerCell.TryGetBatteryFromSlot(silicon, out batteryComp))
+        if (TryComp(silicon, out batteryComp))
             return true;
+
+        if (_powerCell.TryGetBatteryFromSlot((silicon, null), out var batteryEnt))
+        {
+            batteryComp = batteryEnt.Value.Comp;
+            return true;
+        }
 
 
         //DebugTools.Assert("SiliconComponent does not contain Battery");

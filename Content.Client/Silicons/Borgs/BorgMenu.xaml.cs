@@ -94,7 +94,7 @@ public sealed partial class BorgMenu : FancyWindow
             chargeFraction = _battery.GetCharge(battery.Value.AsNullable()) / battery.Value.Comp.MaxCharge;
 
         ChargeBar.Value = chargeFraction;
-        BorgNameEditContainer.Visible = !state.HasBoris; // CD - ai shells change
+        // BorgNameEditContainer.Visible = !state.HasBoris; // CD - ai shells change // starcup: regression due to upstream merge
         ChargeLabel.Text = Loc.GetString("borg-ui-charge-label",
             ("charge", (int)MathF.Round(chargeFraction * 100)));
     }
