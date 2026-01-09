@@ -28,7 +28,7 @@
       0: Alive
       6: Dead
   - type: Stamina
-    critThreshold: 6
+    baseCritThreshold: 6
     animationThreshold: 1
   - type: DamageStateVisuals
     states:
@@ -98,7 +98,7 @@
       0: Alive
       35: Dead
   - type: Stamina
-    critThreshold: 10
+    baseCritThreshold: 10
     animationThreshold: 1
   - type: DamageStateVisuals
     states:

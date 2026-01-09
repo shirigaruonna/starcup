@@ -385,20 +385,19 @@
       entity_storage: !type:AllSelector
         children:
           # Creatures
-        - id: MobCockroach
-          prob: 0.05
-          orGroup: TrashVermin # starcup: add insects, honey, roach resprite
-        - id: MobMothroach
-          prob: 0.03
-        - id: MobMouse
-          prob: 0.05
+        - !type:GroupSelector
+          children:
+          - id: MobCockroach
+            prob: 0.05
+          - id: MobMothroach
+            prob: 0.03
+          - id: MobMouse
+            prob: 0.05
           # begin starcup: add insects, honey, roach resprite
-        - id: MobFlySwarm
-          prob: 0.05
-          orGroup: TrashVermin
-        - id: MobCockroachHL
-          prob: 0.05
-          orGroup: TrashVermin
+          - id: MobFlySwarm
+            prob: 0.05
+          - id: MobCockroachHL
+            prob: 0.05
           # end starcup
           # Food Packaging
         - id: FoodPacketBoritosTrash

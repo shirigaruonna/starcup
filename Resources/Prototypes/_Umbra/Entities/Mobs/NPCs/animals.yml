@@ -71,7 +71,7 @@
   - type: Bloodstream
     bloodReferenceSolution:
       reagents:
-      - reagentId: Blood
+      - ReagentId: Blood
       - Quantity: 50
   - type: Destructible
     thresholds:

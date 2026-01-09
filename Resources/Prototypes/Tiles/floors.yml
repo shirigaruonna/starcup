@@ -2079,7 +2079,7 @@
   isSubfloor: false
   deconstructTools: [ Prying ]
   itemDrop: FloorTileItemAstroIronsand
-  weather: false
+#  weather: false  # starcup: early merge of #38638
 
 - type: tile
   id: FloorAstroIronsandBorderless
@@ -2089,7 +2089,7 @@
   isSubfloor: false
   deconstructTools: [ Prying ]
   itemDrop: FloorTileItemAstroIronsandBorderless
-  weather: false
+#  weather: false  # starcup: early merge of #38638
 
 - type: tile
   id: FloorWoodLarge
