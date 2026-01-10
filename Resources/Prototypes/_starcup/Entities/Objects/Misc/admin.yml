@@ -78,6 +78,6 @@
         - id: CombatMedipen
           amount: 4
         - id: Bloodpack
-        - amount: 2
+          amount: 2
         - id: Oilpack
-        - amount: 2
+          amount: 2

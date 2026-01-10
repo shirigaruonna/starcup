@@ -14,7 +14,7 @@
           - id: ReagentTinPowderedMilk
             amount: 2
           - id: ReagentTinPowderedMilkSoy
-          amount: 2
+            amount: 2
 
 - type: entity
   parent: CratePlastic
