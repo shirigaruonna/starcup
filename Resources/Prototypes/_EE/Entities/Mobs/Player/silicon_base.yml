@@ -163,7 +163,7 @@
       bloodReferenceSolution:
         reagents:
         - ReagentId: Oil
-        - Quantity: 100
+          Quantity: 100
       bleedReductionAmount: 0
       bleedPuddleThreshold: 3
       bloodRefreshAmount: 0

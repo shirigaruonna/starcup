@@ -87,7 +87,7 @@
     bloodReferenceSolution:
       reagents:
       - ReagentId: VentCrud
-      - Quantity: 300
+        Quantity: 300
 
 - type: entity
   name: glowing object
@@ -211,7 +211,7 @@
       bloodReferenceSolution:
         reagents:
         - ReagentId: MuteToxin
-        - Quantity: 100
+          Quantity: 100
     - type: ExaminableSolution
       solution: bloodstream
     - type: InjectableSolution

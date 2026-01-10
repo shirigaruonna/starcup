@@ -72,7 +72,7 @@
     bloodReferenceSolution:
       reagents:
       - ReagentId: Blood
-      - Quantity: 50
+        Quantity: 50
   - type: Destructible
     thresholds:
     - trigger:

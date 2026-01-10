@@ -47,7 +47,7 @@
     bloodReferenceSolution:
       reagents:
       - ReagentId: InsectBlood
-      - Quantity: 0.1
+        Quantity: 0.1
   - type: ZombieImmune
   - type: Destructible
     thresholds:
@@ -113,7 +113,7 @@
     bloodReferenceSolution:
       reagents:
       - ReagentId: InsectBlood
-      - Quantity: 0.1
+        Quantity: 0.1
   - type: NPCRetaliation
   - type: FactionException
   - type: HTN
@@ -520,7 +520,7 @@
     bloodReferenceSolution:
       reagents:
       - ReagentId: InsectBlood
-      - Quantity: 20
+        Quantity: 20
   - type: Edible
   - type: FlavorProfile
     flavors:
