@@ -78,6 +78,14 @@
       children:
       - id: PlushieThrongler
       - id: PlushieGhostRevenant # You got the god roll, and failed
+    # begin starcup
+    - id: PlushieEskie
+    - id: PlushieEikse
+    - id: PlushieMort
+    - id: PlushieZetan
+    - id: PlushieMothRandom # from DeltaV
+    - id: PlushieIPC # from DeltaV
+    # end starcup
 
 # Weh!
 - type: entityTable
@@ -142,7 +150,7 @@
     - id: ToyFigurineCargoTech
     - id: ToyFigurineSalvage
     # Command
-    - id: ToyFigurineCaptain
+    - id: ToyFigurineCaptainSyndie # starcup: command recolors
     # Engineering
     - id: ToyFigurineChiefEngineer
     - id: ToyFigurineEngineer
@@ -161,7 +169,7 @@
     - id: ToyFigurineDetective
     - id: ToyFigurineSecurity
     # Service
-    - id: ToyFigurineHeadOfPersonnel
+    - id: ToyFigurineHeadOfPersonnelSyndie # starcup: command recolors
     - id: ToyFigurinePassenger
     - id: ToyFigurineGreytider
     - id: ToyFigurineClown # :o)
