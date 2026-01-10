@@ -130,10 +130,12 @@
   - type: Storage
     grid:
     - 0,0,4,3
-  - type: StorageFill
-    contents:
-      - id: MailCapsulePrimed
-        amount: 10
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: MailCapsulePrimed
+          amount: 10
   - type: Sprite
     layers:
       - state: box
