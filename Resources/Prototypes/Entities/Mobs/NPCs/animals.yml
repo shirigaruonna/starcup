@@ -3518,6 +3518,7 @@
   - type: Tag
     tags:
     - VimPilot
+  - type: BurrowAbility # starcup
 
 - type: entity
   name: hamster
