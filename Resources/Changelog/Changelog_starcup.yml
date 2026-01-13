@@ -2582,3 +2582,10 @@
   id: 8353
   time: '2026-01-13T02:53:41.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/670
+- author: Oxdeception
+  changes:
+  - message: The AAC tablet's buttons have colors again!
+    type: Fix
+  id: 8354
+  time: '2026-01-13T07:36:10.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/679
