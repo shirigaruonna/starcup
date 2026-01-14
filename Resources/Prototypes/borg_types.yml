@@ -122,6 +122,7 @@
   defaultModules:
   - BorgModuleCleaning
   - BorgModuleCustodial
+  - BorgModuleToolBasic # starcup
 
   radioChannels:
   - Science
@@ -158,6 +159,7 @@
   - BorgModuleChemical
   - BorgModuleTopicals
   - BorgModuleRescue
+  - BorgModuleToolBasic # starcup
 
   radioChannels:
   - Science
@@ -209,6 +211,7 @@
   - BorgModuleClowning
   - BorgModuleGardening
   - BorgModuleHarvesting
+  - BorgModuleToolBasic # starcup
   radioChannels:
   - Science
   - Service
