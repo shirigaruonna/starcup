@@ -2561,3 +2561,45 @@
   id: 8351
   time: '2026-01-09T05:50:30.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/673
+- author: Psymbiote
+  changes:
+  - message: Added a burrowing ability to bunnies, ferrets and goliaths. NPCs will
+      not use it, they'll only burrow when controlled by a player or GM. Because of
+      the way xenos work, the ability wasn't given to burrowers as of this time.
+    type: Add
+  - message: Changed the sprite of xeno floor traps so they'll share it with burrowed
+      creatures, and added a noise alert when they're sprung. Traps involving other
+      mobs, like space animals, are unchanged.
+    type: Tweak
+  id: 8352
+  time: '2026-01-11T06:40:48.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/676
+- author: princesspengy
+  changes:
+  - message: added 30 new mixed drinks for bartenders to make, focused on unusual
+      or uncommon ingredients!
+    type: Add
+  id: 8353
+  time: '2026-01-13T02:53:41.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/670
+- author: Oxdeception
+  changes:
+  - message: The AAC tablet's buttons have colors again!
+    type: Fix
+  id: 8354
+  time: '2026-01-13T07:36:10.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/679
+- author: foxcurl
+  changes:
+  - message: Detailed examines are now visible from any range.
+    type: Tweak
+  id: 8355
+  time: '2026-01-13T07:43:10.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/680
+- author: starlighthowls
+  changes:
+  - message: Added new cute aprons for the bartender and chef
+    type: Add
+  id: 8356
+  time: '2026-01-14T03:56:55.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/678

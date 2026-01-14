@@ -459,6 +459,7 @@
   - BartenderVest
   - BartenderApron
   - BartenderWintercoat
+  - BartenderCuteApron # imp
 
 - type: loadoutGroup
   id: BartenderJobTrinkets
@@ -505,6 +506,7 @@
   - ChefApron
   - ChefJacket
   - ChefWintercoat
+  - ChefCuteApron # imp
 
 - type: loadoutGroup
   id: ChefJobTrinkets
