@@ -357,7 +357,9 @@
 
 - type: entity
   name: cockroach
-  parent: SimpleMobBase
+  parent:
+  - SimpleMobBase
+  - BaseMobAnimal # starcup
   id: MobCockroach
   description: This station is just crawling with bugs.
   components:
@@ -434,8 +436,6 @@
       Starving: 5
       Dead: 0
     baseDecayRate: 0.1
-  - type: Body
-    prototype: Mouse
     # end starcup
   - type: Extractable
     grindableSolutionName: food

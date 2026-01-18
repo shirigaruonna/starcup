@@ -22,13 +22,8 @@
         - id: PositronicBrain
         - id: OrganIPCEyes
         - id: OrganIPCTongue
-        - id: OrganIPCAppendix
         - id: OrganIPCEars
-        - id: OrganIPCLungs
         - id: OrganIPCPump
-        - id: OrganIPCStomach
-        - id: OrganIPCLiver
-        - id: OrganIPCKidneys
   - type: HumanoidAppearance
     species: IPC
   - type: Sprite
