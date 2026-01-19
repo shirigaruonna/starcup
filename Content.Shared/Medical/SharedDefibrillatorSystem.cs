@@ -1,3 +1,4 @@
+using Content.Shared._DEN.Unrotting;
 using Content.Shared.Atmos.Rotting;
 using Content.Shared.Chat;
 using Content.Shared.Damage.Components;
@@ -215,6 +216,12 @@ public abstract class SharedDefibrillatorSystem : EntitySystem
             {
                 _mobState.ChangeMobState(target, MobState.Critical, targetMobState, user);
                 failedRevive = false;
+
+                // DEN - Remove rotting immunity if they have it
+                if (TryComp<RottingImmuneComponent>(target, out var rottingImmunity) && rottingImmunity.RemoveOnRevive)
+                {
+                    RemComp<RottingImmuneComponent>(target);
+                }
             }
 
             if (_mind.TryGetMind(target, out var mindUid, out var mindComp) &&
