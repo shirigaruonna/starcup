@@ -758,10 +758,13 @@ BorgModuleAdvancedChemical: BorgModuleAdvancedTopical
 # 2026-01-14
 HeadHuman: OrganHumanHead
 HeadSkeleton: OrganSkeletonPersonHead
+TorsoHuman: OrganHumanTorso
 LeftArmHuman: OrganHumanArmLeft
 LeftArmSkeleton: OrganSkeletonPersonArmLeft
 LeftHandSkeleton: OrganSkeletonPersonHandLeft
+LeftHandReptilian: OrganReptilianHandLeft
 LeftLegHuman: OrganHumanLegLeft
+LeftFootHuman: OrganHumanFootLeft
 LeftLegSkeleton: OrganSkeletonPersonLegLeft
 RightArmHuman: OrganHumanArmRight
 RightHandSkeleton: OrganSkeletonPersonHandRight
