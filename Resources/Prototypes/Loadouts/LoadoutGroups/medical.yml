@@ -19,6 +19,8 @@
   id: MedicalShoes
   name: loadout-group-medical-doctor-shoes
   loadouts:
+  - BlackShoes # starcup
+  - BlueShoes # starcup
   - WhiteShoes
   - MedicalWinterBoots
 
@@ -31,6 +33,7 @@
   - EmergencyNitrogenMedical
   - EmergencyOxygenMedical
   - LoadoutSpeciesVoxNitrogen
+  - EmergencyIPCBox # DeltaV
 
 # Chief Medical Officer
 
@@ -60,6 +63,7 @@
   - ChiefMedicalOfficerWintercoat
 
 - type: loadoutGroup
+  parent: [ MedicalDoctorNeck ] # starcup
   id: ChiefMedicalOfficerNeck
   name: loadout-group-chief-medical-officer-neck
   minLimit: 0
@@ -68,11 +72,19 @@
   - ChiefMedicalOfficerMantle
 
 - type: loadoutGroup
+  parent: MedicalShoes # starcup
   id: ChiefMedicalOfficerShoes
   name: loadout-group-chief-medical-officer-shoes
   loadouts:
   - BrownShoes
-  - MedicalWinterBoots
+  - BrownLeatherShoes # starcup
+  - LaceupShoes # starcup
+  - BlackHeels # starcup
+  - BlueHeels # starcup
+  - BlackCommandHeels # starcup
+  - BlueCommandHeels # starcup
+  # - MedicalWinterBoots # starcup: provided by parent
+  - ChiefMedicalOfficerWinterBoots # DeltaV
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerJobTrinkets
@@ -115,6 +127,7 @@
   loadouts:
   - RegularLabCoat
   - MedicalDoctorWintercoat
+  - MedicalSweater # starcup
   - SeniorPhysicianLabCoat
 
 - type: loadoutGroup
@@ -123,6 +136,8 @@
   loadouts:
   - MedicalDoctorPDA
   - SeniorPhysicianPDA
+  - ClinicianPDA # DeltaV
+  - NursePractitionerPDA # starcup
 
 - type: loadoutGroup
   id: MedicalDoctorJobTrinkets
@@ -205,12 +220,17 @@
   - ParamedicWintercoat
 
 - type: loadoutGroup
+  parent: MedicalShoes # starcup
   id: ParamedicShoes
   name: loadout-group-paramedic-shoes
   loadouts:
-  - BlueShoes
-  - WhiteShoes
-  - MedicalWinterBoots
+  # begin starcup: provided by parent
+  # - BlueShoes
+  # - WhiteShoes
+  # - MedicalWinterBoots
+  # end starcup
+  - CombatBoots # starcup
+  - ParamedicWinterBoots # DeltaV
 
 - type: loadoutGroup
   id: ParamedicJobTrinkets

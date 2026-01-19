@@ -116,7 +116,6 @@
     - id: JetInjector
     - id: HandheldHealthAnalyzer
     - id: BoxBodyBag
-    - id: ClothingShoesBootsWinterParamedic # DeltaV
     - !type:GroupSelector
       children:
       - id: RollerBedSpawnFolded
