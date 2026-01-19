@@ -231,16 +231,10 @@
 - type: entity
   parent: [ OrganBaseTorso, OrganIPCExternal ]
   id: OrganIPCTorso
-  components:
-  - type: Sprite
-    state: torso
 
 - type: entity
   parent: [ OrganBaseHead, OrganIPCExternal ]
   id: OrganIPCHead
-  components:
-  - type: Sprite
-    state: head
 
 - type: entity
   parent: [ OrganBaseArmLeft, OrganIPCExternal ]
