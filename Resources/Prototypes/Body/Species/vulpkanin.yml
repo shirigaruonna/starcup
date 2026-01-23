@@ -51,14 +51,16 @@
     enum.HumanoidVisualLayers.RFoot:
       limit: 2
       required: false
-    enum.HumanoidVisualLayers.UndergarmentTop:
-      limit: 1
-      required: false
-      nudityDefault: [ UndergarmentTopTanktopVulpkanin ]
-    enum.HumanoidVisualLayers.UndergarmentBottom:
-      limit: 1
-      required: false
-      nudityDefault: [ UndergarmentBottomBoxersVulpkanin ]
+    # begin starcup: use delta-v sprites
+    #enum.HumanoidVisualLayers.UndergarmentTop:
+    #  limit: 1
+    #  required: false
+    #  nudityDefault: [ UndergarmentTopTanktopVulpkanin ]
+    #enum.HumanoidVisualLayers.UndergarmentBottom:
+    #  limit: 1
+    #  required: false
+    #  nudityDefault: [ UndergarmentBottomBoxersVulpkanin ]
+    # end starcup
 
 - type: entity
   parent: BaseSpeciesAppearance

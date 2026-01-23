@@ -84,7 +84,7 @@
   # end starcup
   # Misc Cosmetics
   - TowelColorWhite
-  # TODO: removed by upstream, decide whether to keep these
+  # TODO(starcup): removed by upstream, decide whether to keep these
   #- TowelColorGray
   #- TowelColorBlack
   #- TowelColorRed
