@@ -2674,3 +2674,11 @@
   id: 8363
   time: '2026-01-21T23:43:02.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/690
+- author: princesspengy
+  changes:
+  - message: the bedsheet bearing a strange red-white-and-blue pattern has been removed
+      from the game
+    type: Remove
+  id: 8364
+  time: '2026-01-23T04:26:51.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/693
