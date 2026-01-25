@@ -2693,3 +2693,11 @@
   id: 8365
   time: '2026-01-24T08:20:29.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/699
+- author: princesspengy
+  changes:
+  - message: altar names and descriptions have been lightly rewritten to remove associations
+      with real-world religion
+    type: Tweak
+  id: 8366
+  time: '2026-01-25T05:16:47.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/698
