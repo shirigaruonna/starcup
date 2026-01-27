@@ -1951,7 +1951,7 @@
   id: uplinkRiggedBoxingGlovesPassengerNT
   name: uplink-rigged-boxing-gloves-name
   description: uplink-rigged-boxing-gloves-desc
-  productEntity: ClothingHandsGlovesBoxingRigged
+  productEntity: ClothingHandsGlovesBoxingBlue # TODO Replace this with the random spawner when it's not bugged
   discountCategory: usualDiscounts
   discountDownTo:
     Telecrystal: 3
@@ -1968,7 +1968,7 @@
   id: uplinkRiggedBoxingGlovesBoxerNT
   name: uplink-rigged-boxing-gloves-name
   description: uplink-rigged-boxing-gloves-desc
-  productEntity: ClothingHandsGlovesBoxingRigged
+  productEntity: ClothingHandsGlovesBoxingBlue # TODO Replace this with the random spawner when it's not bugged
   discountCategory: usualDiscounts
   discountDownTo:
     Telecrystal: 2
