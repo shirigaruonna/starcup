@@ -117,68 +117,50 @@
   bodyPart: Tail
   groupWhitelist: [Reptilian]
   sprites:
-    - sprite: Mobs/Customization/reptilian_parts.rsi
-      state: tail_smooth_front
-    - sprite: Mobs/Customization/reptilian_parts.rsi
-      state: tail_smooth_behind_primary
-    - sprite: Mobs/Customization/reptilian_parts.rsi
-      state: tail_smooth_behind_secondary
-  # end starcup
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: tail_smooth_primary
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: tail_smooth_secondary
 
 - type: marking
   id: LizardTailLarge
   bodyPart: Tail
   groupWhitelist: [Reptilian]
   sprites:
-    - sprite: Mobs/Customization/reptilian_parts.rsi
-      state: tail_large_front
-    - sprite: Mobs/Customization/reptilian_parts.rsi
-      state: tail_large_behind
-  # end starcup
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: tail_large
 
 - type: marking
   id: LizardTailSpikes
   bodyPart: Tail
   groupWhitelist: [Reptilian]
   sprites:
-    - sprite: Mobs/Customization/reptilian_parts.rsi
-      state: tail_spikes_front
-    - sprite: Mobs/Customization/reptilian_parts.rsi
-      state: tail_spikes_behind
-  # end starcup
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: tail_spikes
 
 - type: marking
   id: LizardTailLTiger
   bodyPart: Tail
   groupWhitelist: [Reptilian]
   sprites:
-    - sprite: Mobs/Customization/reptilian_parts.rsi
-      state: tail_ltiger_front
-    - sprite: Mobs/Customization/reptilian_parts.rsi
-      state: tail_ltiger_behind
-  # end starcup
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: tail_ltiger
 
 - type: marking
   id: LizardTailDTiger
   bodyPart: Tail
   groupWhitelist: [Reptilian]
   sprites:
-    - sprite: Mobs/Customization/reptilian_parts.rsi
-      state: tail_dtiger_front
-    - sprite: Mobs/Customization/reptilian_parts.rsi
-      state: tail_dtiger_behind
-  # end starcup
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: tail_dtiger
 
 - type: marking
   id: LizardTailAquatic
   bodyPart: Tail
   groupWhitelist: [Reptilian]
   sprites:
-    - sprite: Mobs/Customization/reptilian_parts.rsi
-      state: tail_aquatic_front
-    - sprite: Mobs/Customization/reptilian_parts.rsi
-      state: tail_aquatic_behind
-  # end starcup
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: tail_aquatic
 
 - type: marking
   id: LizardSnoutRound
@@ -358,65 +340,47 @@
   bodyPart: Tail
   groupWhitelist: []
   sprites:
-    - sprite: _starcup/Mobs/Customization/reptilian_parts.rsi
-      state: tail_smooth_wagging_front
-    - sprite: _starcup/Mobs/Customization/reptilian_parts.rsi
-      state: tail_smooth_wagging_behind_primary
-    - sprite: _starcup/Mobs/Customization/reptilian_parts.rsi
-      state: tail_smooth_wagging_behind_secondary
-  # end starcup
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: tail_smooth_wagging_primary
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: tail_smooth_wagging_secondary
 
 - type: marking
   id: LizardTailLargeAnimated
   bodyPart: Tail
   groupWhitelist: []
   sprites:
-    - sprite: _starcup/Mobs/Customization/reptilian_parts.rsi
-      state: tail_large_wagging_front
-    - sprite: _starcup/Mobs/Customization/reptilian_parts.rsi
-      state: tail_large_wagging_behind
-  # end starcup
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: tail_large_wagging
 
 - type: marking
   id: LizardTailSpikesAnimated
   bodyPart: Tail
   groupWhitelist: []
   sprites:
-    - sprite: _starcup/Mobs/Customization/reptilian_parts.rsi
-      state: tail_spikes_wagging_front
-    - sprite: _starcup/Mobs/Customization/reptilian_parts.rsi
-      state: tail_spikes_wagging_behind
-  # end starcup
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: tail_spikes_wagging
 
 - type: marking
   id: LizardTailLTigerAnimated
   bodyPart: Tail
   groupWhitelist: []
   sprites:
-    - sprite: _starcup/Mobs/Customization/reptilian_parts.rsi
-      state: tail_ltiger_wagging_front
-    - sprite: _starcup/Mobs/Customization/reptilian_parts.rsi
-      state: tail_ltiger_wagging_behind
-  # end starcup
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: tail_ltiger_wagging
 
 - type: marking
   id: LizardTailDTigerAnimated
   bodyPart: Tail
   groupWhitelist: []
   sprites:
-    - sprite: _starcup/Mobs/Customization/reptilian_parts.rsi
-      state: tail_dtiger_wagging_front
-    - sprite: _starcup/Mobs/Customization/reptilian_parts.rsi
-      state: tail_dtiger_wagging_behind
-  # end starcup
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: tail_dtiger_wagging
 
 - type: marking
   id: LizardTailAquaticAnimated
   bodyPart: Tail
   groupWhitelist: []
   sprites:
-    - sprite: _starcup/Mobs/Customization/reptilian_parts.rsi
-      state: tail_aquatic_wagging_front
-    - sprite: _starcup/Mobs/Customization/reptilian_parts.rsi
-      state: tail_aquatic_wagging_behind
-  # end starcup
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: tail_aquatic_wagging

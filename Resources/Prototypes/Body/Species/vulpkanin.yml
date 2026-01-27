@@ -1,5 +1,5 @@
 - type: markingsGroup
-  parent: Undergarments
+  parent: [ Undergarments, Humanoid ] # starcup: add humanoid
   id: Vulpkanin
   limits:
     enum.HumanoidVisualLayers.Hair:
@@ -242,7 +242,7 @@
   id: OrganVulpkaninTorso
 
 - type: entity
-  parent: [ OrganBaseHead, OrganVulpkaninExternal ]
+  parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganVulpkaninExternal ] # starcup: added OrganBaseHeadSexed
   id: OrganVulpkaninHead
   components:
   - type: VisualOrganMarkings

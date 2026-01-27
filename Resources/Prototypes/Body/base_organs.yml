@@ -65,6 +65,7 @@
     - enum.HumanoidVisualLayers.Hair
     markingData:
       layers:
+      - HeadBase # starcup
       - Head
       - Hair
       - FacialHair

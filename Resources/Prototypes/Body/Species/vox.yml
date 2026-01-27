@@ -58,7 +58,7 @@
     enum.HumanoidVisualLayers.Tail:
       limit: 1
       required: true
-      default: [ VoxTail ]
+      default: [ VoxTailBack ] # Imp
     enum.HumanoidVisualLayers.UndergarmentTop:
       limit: 1
       required: false
