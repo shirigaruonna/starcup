@@ -1,7 +1,7 @@
 - type: markingsGroup
   parent:
   - Undergarments
-  - Humanoid
+  - Humanoid # starcup: added for standardized marking limits
   id: Rodentia
   limits:
     enum.HumanoidVisualLayers.Tail:
@@ -12,6 +12,9 @@
       limit: 1
       required: true
       default: [ RodentiaHeadTopEarDefault ]
+    enum.HumanoidVisualLayers.HeadSide:
+      limit: 1
+      required: false
     enum.HumanoidVisualLayers.Snout:
       limit: 1
       required: false

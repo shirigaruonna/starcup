@@ -5,11 +5,17 @@
   limits:
     enum.HumanoidVisualLayers.Hair:
       limit: 2
+      onlyGroupWhitelisted: false
       required: false
     enum.HumanoidVisualLayers.FacialHair:
       limit: 1
+      onlyGroupWhitelisted: false
       required: false
     enum.HumanoidVisualLayers.Head:
+      limit: 1
+      required: true
+      default: [ MobIPCHeadDefault ]
+    enum.HumanoidVisualLayers.HeadTop:
       limit: 1
       required: true
       default: [ MobIPCHeadDefault ]
@@ -17,6 +23,9 @@
       limit: 1
       required: true
       default: [ MobIPCTorsoDefault ]
+    enum.HumanoidVisualLayers.Overlay:
+      limit: 1
+      required: false
     enum.HumanoidVisualLayers.HeadSide:
       limit: 1
       required: false
@@ -295,42 +304,88 @@
 - type: entity
   parent: [ OrganBaseTorsoSexed, OrganBaseTorso, OrganIPCExternal ]
   id: OrganIPCTorso
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: null
+    sexStateOverrides:
+      Male: null
+      Female: null
 
 - type: entity
   parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganIPCExternal ]
   id: OrganIPCHead
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: null
+    sexStateOverrides:
+      Male: null
+      Female: null
 
 - type: entity
   parent: [ OrganBaseArmLeft, OrganIPCExternal ]
   id: OrganIPCArmLeft
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: null
 
 - type: entity
   parent: [ OrganBaseArmRight, OrganIPCExternal ]
   id: OrganIPCArmRight
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: null
 
 - type: entity
   parent: [ OrganBaseHandLeft, OrganIPCExternal ]
   id: OrganIPCHandLeft
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: null
 
 - type: entity
   parent: [ OrganBaseHandRight, OrganIPCExternal ]
   id: OrganIPCHandRight
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: null
 
 - type: entity
   parent: [ OrganBaseLegLeft, OrganIPCExternal ]
   id: OrganIPCLegLeft
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: null
 
 - type: entity
   parent: [ OrganBaseLegRight, OrganIPCExternal ]
   id: OrganIPCLegRight
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: null
 
 - type: entity
   parent: [ OrganBaseFootLeft, OrganIPCExternal ]
   id: OrganIPCFootLeft
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: null
 
 - type: entity
   parent: [ OrganBaseFootRight, OrganIPCExternal ]
   id: OrganIPCFootRight
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: null
 
 - type: entity
   parent: [ OrganIPCVisual, OrganBaseEyes, OrganIPCInternal ]

@@ -13,6 +13,9 @@
     enum.HumanoidVisualLayers.Head:
       limit: 4
       required: false
+    enum.HumanoidVisualLayers.HeadSide:
+      limit: 1
+      required: false
     enum.HumanoidVisualLayers.Snout:
       limit: 1
       required: true
@@ -53,7 +56,7 @@
       required: true
       default: [ VoxRFootScales ]
     enum.HumanoidVisualLayers.Chest:
-      limit: 2
+      limit: 4 # starcup: 2 > 4
       required: false
     enum.HumanoidVisualLayers.Tail:
       limit: 1

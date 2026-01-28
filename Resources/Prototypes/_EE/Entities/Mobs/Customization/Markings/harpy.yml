@@ -4,7 +4,7 @@
 
 - type: marking
   id: HarpyEarsLarge
-  bodyPart: Head
+  bodyPart: HeadSide # starcup: changed from Head
   groupWhitelist: [Harpy]
   coloring:
     default:
