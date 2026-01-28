@@ -224,7 +224,7 @@
   components:
   - type: VisualOrgan
     data:
-      sprite: Mobs/Species/Vulpkanin/parts.rsi
+      sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi # starcup: use delta-v sprites
   - type: VisualOrganMarkings
     markingData:
       group: Vulpkanin
@@ -293,8 +293,25 @@
   id: OrganVulpkaninBrain
 
 - type: entity
-  parent: [ OrganVulpkaninVisual, OrganBaseEyes, OrganVulpkaninInternal ]
   id: OrganVulpkaninEyes
+  components:
+  - type: VisualOrgan
+    layer: enum.HumanoidVisualLayers.Eyes
+    data:
+      sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi # starcup: use delta-v sprites
+      state: eyes
+  - type: VisualOrganMarkings
+    markingData:
+      group: Vulpkanin
+      layers:
+      - Eyes
+  - type: GibbableOrgan
+  - type: Organ
+    category: Eyes
+  - type: Sprite
+    layers:
+    - state: eyeball-l
+    - state: eyeball-r
 
 - type: entity
   parent: [ OrganBaseTongue, OrganVulpkaninInternal ]

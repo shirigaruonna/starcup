@@ -14,11 +14,8 @@
   bodyPart: Tail
   groupWhitelist: [ Vulpkanin ]
   sprites:
-  - sprite: _starcup/Mobs/Customization/Vulpkanin/tail_markings.rsi
+  - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi # starcup: use delta-v sprite
     state: fluffy
-  - sprite: _starcup/Mobs/Customization/Vulpkanin/tail_markings.rsi
-    state: fluffy_BACK
-  # end starcup
 
 - type: marking
   id: VulpTailHusky
@@ -37,42 +34,27 @@
   bodyPart: Tail
   groupWhitelist: [ Vulpkanin ]
   sprites:
-  - sprite: _starcup/Mobs/Customization/Vulpkanin/tail_markings.rsi
+  - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi # starcup: use delta-v sprite
     state: long
-  - sprite: _starcup/Mobs/Customization/Vulpkanin/tail_markings.rsi
+  - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi # starcup: use delta-v sprite
     state: long-tip
-  - sprite: _starcup/Mobs/Customization/Vulpkanin/tail_markings.rsi
-    state: long_BACK
-  - sprite: _starcup/Mobs/Customization/Vulpkanin/tail_markings.rsi
-    state: long-tip_BACK
-  # end starcup
 
 - type: marking
   id: VulpTailVulp
   bodyPart: Tail
   groupWhitelist: [ Vulpkanin ]
   sprites:
-  - sprite: _Floof/Mobs/Customization/Vulpkanin/tail_markings.rsi
+  - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi # starcup: use delta-v sprite
     state: vulp
-  - sprite: _Floof/Mobs/Customization/Vulpkanin/tail_markings.rsi
+  - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi # starcup: use delta-v sprite
     state: vulp-fade
-  - sprite: _Floof/Mobs/Customization/Vulpkanin/tail_markings.rsi
-    state: vulp_BACK
-  - sprite: _Floof/Mobs/Customization/Vulpkanin/tail_markings.rsi
-    state: vulp-fade_BACK
-  # end floof
 
 - type: marking
   id: VulpTailVulpFade
   bodyPart: Tail
   groupWhitelist: [ Vulpkanin ]
   sprites:
-  - sprite: _Floof/Mobs/Customization/Vulpkanin/tail_markings.rsi
+  - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi # starcup: use delta-v sprite
     state: vulp_alt
-  - sprite: _Floof/Mobs/Customization/Vulpkanin/tail_markings.rsi
+  - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi # starcup: use delta-v sprite
     state: vulp_alt-fade
-  - sprite: _Floof/Mobs/Customization/Vulpkanin/tail_markings.rsi
-    state: vulp_alt_BACK
-  - sprite: _Floof/Mobs/Customization/Vulpkanin/tail_markings.rsi
-    state: vulp_alt-fade_BACK
-  # end floof

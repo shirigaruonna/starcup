@@ -154,31 +154,33 @@
   - sprite: Mobs/Customization/tattoos.rsi
     state: tattoo_eye_moth_l
 
-- type: marking
-  id: TattooEyeVulpkaninRight
-  bodyPart: Eyes
-  groupWhitelist: [Vulpkanin]
-  coloring:
-    default:
-      type:
-        !type:EyeColoring
-          negative: true
-  sprites:
-  - sprite: Mobs/Customization/tattoos.rsi
-    state: tattoo_eye_vulpkanin_r
-
-- type: marking
-  id: TattooEyeVulpkaninLeft
-  bodyPart: Eyes
-  groupWhitelist: [Vulpkanin]
-  coloring:
-    default:
-      type:
-        !type:EyeColoring
-          negative: true
-  sprites:
-  - sprite: Mobs/Customization/tattoos.rsi
-    state: tattoo_eye_vulpkanin_l
+# begin starcup: removed for delta-v sprites
+#- type: marking
+#  id: TattooEyeVulpkaninRight
+#  bodyPart: Eyes
+#  groupWhitelist: [Vulpkanin]
+#  coloring:
+#    default:
+#      type:
+#        !type:EyeColoring
+#          negative: true
+#  sprites:
+#  - sprite: Mobs/Customization/tattoos.rsi
+#    state: tattoo_eye_vulpkanin_r
+#
+#- type: marking
+#  id: TattooEyeVulpkaninLeft
+#  bodyPart: Eyes
+#  groupWhitelist: [Vulpkanin]
+#  coloring:
+#    default:
+#      type:
+#        !type:EyeColoring
+#          negative: true
+#  sprites:
+#  - sprite: Mobs/Customization/tattoos.rsi
+#    state: tattoo_eye_vulpkanin_l
+# end starcup
 
 - type: marking
   id: TattooEyeshadowUpper
