@@ -17,3 +17,17 @@
     state: icon
   - type: Item
     sprite: _starcup/Objects/Storage/briefcase_syndcomm.rsi
+
+- type: entity
+  parent: [BaseTraitorContraband, BriefcaseWeapon]
+  id: BriefcaseWeaponNT
+  components:
+  - type: Sprite
+    sprite: _starcup/Objects/Storage/Briefcases/weapon_case_large_nt.rsi
+
+- type: entity
+  parent: [BaseTraitorContraband, BriefcaseWeaponSmall]
+  id: BriefcaseWeaponNTSmall
+  components:
+  - type: Sprite
+    sprite: _starcup/Objects/Storage/Briefcases/weapon_case_nt.rsi
