@@ -11,7 +11,7 @@
     enum.HumanoidVisualLayers.HeadBase:
       limit: 1
       required: true
-      default: [ FelinidHeadFemale ] # TODO(starcup): fix the defaults so they work like they should?
+      default: [ FelinidHeadFemale ]
     enum.HumanoidVisualLayers.HeadTop:
       limit: 1
       required: true
@@ -129,6 +129,12 @@
   - type: VisualOrganMarkings
     markingData:
       group: Felinid
+  - type: VisualOrgan
+    data:
+      sprite: null
+    sexStateOverrides:
+      Male: null
+      Female: null
 
 - type: entity
   parent: OrganHumanArmLeft
