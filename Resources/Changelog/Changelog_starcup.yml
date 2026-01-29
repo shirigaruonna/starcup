@@ -2756,3 +2756,11 @@
   id: 8373
   time: '2026-01-29T09:02:51.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/707
+- author: princesspengy
+  changes:
+  - message: the energy crossbow, hushpup, and voice mask implanter introduced upstream
+      are now available for nt traitors
+    type: Fix
+  id: 8374
+  time: '2026-01-29T10:08:49.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/703
