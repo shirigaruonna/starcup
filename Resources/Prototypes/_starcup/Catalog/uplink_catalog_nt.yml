@@ -79,6 +79,22 @@
   - UplinkWeaponryNT
 
 - type: listing
+  id: UplinkEnergyCrossbowNT
+  name: uplink-energycrossbow-name
+  description: uplink-energycrossbow-desc
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 3
+  productEntity: WeaponEnergyCrossbow
+  cost:
+    Telecrystal: 5
+  categories:
+  - UplinkWeaponryNT
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
   id: UplinkThrowingKnivesKitNT
   name: uplink-knives-kit-name
   description: uplink-knives-kit-desc-starcup
@@ -166,6 +182,20 @@
   description: uplink-hushpup-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/Shotguns/hushpup.rsi, state: icon }
   productEntity: BriefcaseWeaponHushpupFilledNT
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 8
+  cost:
+    Telecrystal: 10
+  categories:
+  - UplinkWeaponryNT
+
+- type: listing
+  id: UplinkHushpupNT
+  name: uplink-hushpup-name
+  description: uplink-hushpup-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Shotguns/hushpup.rsi, state: icon }
+  productEntity: ClothingBackpackDuffelNanotrasenFilledHushpup
   discountCategory: rareDiscounts
   discountDownTo:
     Telecrystal: 8
