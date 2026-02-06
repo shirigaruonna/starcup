@@ -2830,3 +2830,13 @@
   id: 8383
   time: '2026-02-05T11:32:23.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/708
+- author: KoboldCatgirl
+  changes:
+  - message: Fruits can now be placed in cottonburgers!
+    type: Add
+  - message: Dopterae can now eat more fruit-based items like mime tarts and pumpkin
+      pies.
+    type: Tweak
+  id: 8384
+  time: '2026-02-06T01:25:39.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/733
