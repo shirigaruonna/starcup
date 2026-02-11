@@ -473,6 +473,7 @@
   minLimit: 0
   loadouts:
   - BartenderGoldenShaker
+  - LizardPlushieBartender # starcup: added back
 
 #- type: loadoutGroup
 #  id: ServiceWorkerJobTrinkets
@@ -681,6 +682,7 @@
   minLimit: 0
   loadouts:
   - JanitorGoldenPlunger
+  - LizardPlushieJanitor # starcup: added back
 
 - type: loadoutGroup
   id: BotanistHead
@@ -780,6 +782,7 @@
   minLimit: 0
   loadouts:
   - FlowerWaterClown
+  - LizardPlushieClown # starcup: added back
 
 - type: loadoutGroup
   id: MimeHead
@@ -1428,6 +1431,7 @@
   minLimit: 0
   loadouts:
   - SecStar
+  - LizardPlushieHeadofSecurity # starcup: added back
 
 - type: loadoutGroup
   id: WardenHead
@@ -1457,6 +1461,7 @@
   minLimit: 0
   loadouts:
   - SecStar
+  - LizardPlushieWarden # starcup: added back
 
 - type: loadoutGroup
   id: SecurityHead
@@ -1524,6 +1529,7 @@
   minLimit: 0
   loadouts:
   - SecStar
+  - LizardPlushieSecurity # starcup: added back
 
 - type: loadoutGroup
   id: DetectiveHead
@@ -1573,6 +1579,7 @@
   minLimit: 0
   loadouts:
   - SecStar
+  - LizardPlushieDetective # starcup: added back
 
 - type: loadoutGroup
   id: SecurityCadetJumpsuit

@@ -1,4 +1,4 @@
-# Other
+# "invisible" loadout groups that are used for things like vox breath masks and survival boxes
 
 - type: loadoutGroup
   id: SurvivalNanotrasen
@@ -9,7 +9,7 @@
   - EmergencyNitrogenSyndicate
   - EmergencyOxygenSyndicate
   - LoadoutSpeciesVoxNitrogen
-  - EmergencyIPCBox # DeltaV
+  - EmergencyIPCBox
 
 - type: loadoutGroup
   id: GroupSpeciesBreathToolBrigmedic
