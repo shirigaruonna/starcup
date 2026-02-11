@@ -13,6 +13,8 @@
     - id: AstroNavCartridge
     - id: QuartermasterIDCard # starcup: added spare ID
     - id: ClothingHandsKnuckleDustersQM
+    - id: PlushieLizardJobQuartermaster
+      prob: 0.02
     - id: ClothingShoesBootsWinterLogisticsOfficer # DeltaV
 
 - type: entity
@@ -51,6 +53,8 @@
       conditions:
       - !type:PlayerCountCondition
         max: 15
+    - id: PlushieLizardJobCaptain
+      prob: 0.02
     - id: ClothingShoesBootsWinterCap # DeltaV
 
 # No laser table + Laser table
@@ -132,6 +136,9 @@
     - id: DoorRemoteService
     - id: HoPIDCard
     - id: WeaponDisabler
+    - id: ClothingEyesHudCommand
+    - id: PlushieLizardJobHeadofpersonnel
+      prob: 0.02
     - id: ClothingEyesHudCommandSyndie # starcup
     - id: ClothingShoesBootsWinterHeadOfPersonel # DeltaV
 
@@ -165,6 +172,8 @@
     - id: RCDAmmo
     - id: RubberStampCE
     - id: MetalFoamGrenade
+    - id: PlushieLizardJobChiefengineer
+      prob: 0.02
     - id: ClothingShoesBootsWinterChiefEngineer # DeltaV
 
 # Hardsuit table, used for suit storage as well
@@ -220,6 +229,8 @@
     - id: DoorRemoteMedical
     - id: BoxEncryptionKeyMedical
     - id: BoxCMOCircuitboards
+    - id: PlushieLizardJobChiefmedicalofficer
+      prob: 0.02
     - id: ClothingShoesBootsWinterChiefMedicalOfficer # DeltaV
     - id: CMOIDCard # starcup: added spare ID
 
@@ -271,6 +282,8 @@
     - id: DoorRemoteResearch
     - id: HandTeleporter
     - id: RubberStampRd
+    - id: PlushieLizardJobResearchdirector
+      prob: 0.02
     - id: RDIDCard # starcup: added spare ID
     - id: ClothingShoesBootsWinterMystagogue # DeltaV
 
@@ -335,6 +348,8 @@
     # - id: WeaponTaser # starcup: remove tasers
     - id: WantedListCartridge
     - id: DrinkHosFlask
+    - id: PlushieLizardJobHeadofsecurity
+      prob: 0.02
     - id: ClothingShoesBootsWinterHeadOfSecurity # DeltaV
 
 # Hardsuit table, used for suit storage as well
