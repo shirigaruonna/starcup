@@ -37,6 +37,14 @@ public sealed partial class HumanoidProfileEditor
 
         foreach (var trait in traits)
         {
+            // Begin DeltaV Additions - Species trait exclusion
+            if (Profile?.Species is { } selectedSpecies && trait.ExcludedSpecies.Contains(selectedSpecies))
+            {
+                Profile = Profile?.WithoutTraitPreference(trait.ID, _prototypeManager);
+                continue;
+            }
+            // End DeltaV Additions
+
             if (trait.Category == null)
             {
                 defaultTraits.Add(trait.ID);

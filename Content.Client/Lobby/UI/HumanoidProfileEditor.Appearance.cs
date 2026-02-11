@@ -1,3 +1,4 @@
+using System.Globalization;
 using System.Linq;
 using Content.Client.UserInterface.Systems.Guidebook;
 using Content.Shared.Guidebook;
@@ -17,6 +18,7 @@ public sealed partial class HumanoidProfileEditor
     private ColorSelectorSliders _rgbSkinColorSelector;
     private List<SpeciesPrototype> _species = new();
     private static readonly ProtoId<GuideEntryPrototype> DefaultSpeciesGuidebook = "Species";
+    private float _defaultHeight = 1f; // CD - Character Height
 
     public void UpdateSpeciesGuidebookIcon()
     {
@@ -46,6 +48,26 @@ public sealed partial class HumanoidProfileEditor
 
         PronounsButton.SelectId((int)Profile.Gender);
     }
+
+    // Begin CD - Character Height
+    private void UpdateHeightControls()
+    {
+        if (Profile == null)
+        {
+            return;
+        }
+
+        var species = _species.Find(x => x.ID == Profile.Species);
+        if (species != null)
+            _defaultHeight = species.DefaultHeight;
+
+        var prototype = _prototypeManager.Index<SpeciesPrototype>(Profile.Species);
+        var sliderPercent = (Profile.Height - prototype.MinHeight) /
+                            (prototype.MaxHeight - prototype.MinHeight);
+        CDHeightSlider.Value = sliderPercent;
+        CDHeight.Text = Profile.Height.ToString(CultureInfo.InvariantCulture);
+    }
+    // End CD - Character Height
 
     private void UpdateAgeEdit()
     {
@@ -225,6 +247,15 @@ public sealed partial class HumanoidProfileEditor
         Profile = Profile?.WithGender(newGender);
         ReloadPreview();
     }
+
+    // Begin CD - Character Records
+    private void SetProfileHeight(float height)
+    {
+        Profile = Profile?.WithHeight(height);
+        SetDirty();
+        ReloadProfilePreview();
+    }
+    // End CD - Character Records
 
     private void SetSpawnPriority(SpawnPriorityPreference newSpawnPriority)
     {
