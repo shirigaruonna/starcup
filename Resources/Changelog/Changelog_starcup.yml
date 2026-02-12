@@ -2934,3 +2934,11 @@
   id: 8396
   time: '2026-02-12T00:01:14.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/744
+- author: princesspengy
+  changes:
+  - message: ported impstation's ready manifest, allowing players to view jobs that
+      are being readied for during roundstart!
+    type: Add
+  id: 8397
+  time: '2026-02-12T00:14:01.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/730
