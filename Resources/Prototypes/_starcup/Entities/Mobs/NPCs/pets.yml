@@ -20,3 +20,9 @@
   components:
   - type: Loadout
     prototypes: [ MobMonkeyGearCold ]
+
+- type: entity
+  name: Dishduty
+  parent: MobSloth
+  id: MobDishduty
+  description: Former corporate enemy on parole for crimes against the Syndicate. She is just as slow as Paperwork.
