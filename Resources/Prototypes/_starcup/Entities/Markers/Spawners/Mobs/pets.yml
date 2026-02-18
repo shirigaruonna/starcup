@@ -28,3 +28,17 @@
   - type: ConditionalSpawner
     prototypes:
     - CrateNPCHamletMime
+
+- type: entity
+  parent: MarkerBase
+  id: SpawnMobSlothDishduty
+  name: Sloth Dishduty Spawner
+  suffix: Service Pet
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+    - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+    - MobDishduty

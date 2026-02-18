@@ -23,6 +23,20 @@
 
 - type: entity
   name: Dishduty
-  parent: MobSloth
+  parent: MobPaperwork
   id: MobDishduty
-  description: Former corporate enemy on parole for crimes against the Syndicate. She is just as slow as Paperwork.
+  description: A former corporate enemy on parole for crimes against the Syndicate. She is just as slow as Paperwork.
+  components:
+  - type: Grammar
+    attributes:
+      proper: true
+      gender: female
+  - type: InteractionPopup
+    successChance: 0.7 # She's a little chillier than Paperwork
+    interactSuccessString: petting-success-dishduty
+    interactFailureString: petting-failure-sloth
+    interactSuccessSpawn: EffectHearts
+    interactSuccessSound:
+      path: /Audio/Animals/sloth_squeak.ogg
+    interactFailureSound:
+      path: /Audio/Misc/Woosh.ogg
