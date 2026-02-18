@@ -5,13 +5,14 @@
   description: Your divine right to smoke. Tastes like olives and fake gold.
   components:
   - type: Sprite
-    sprite: DeltaV/Objects/Consumable/Smokeables/Cigarettes/Packs/purple.rsi
+    sprite: _DV/Objects/Consumable/Smokeables/Cigarettes/Packs/purple.rsi
   - type: Item
-    sprite: DeltaV/Objects/Consumable/Smokeables/Cigarettes/Packs/purple.rsi
-  - type: StorageFill
-    contents:
-    - id: CigaretteOlive
-      amount: 10
+    sprite: _DV/Objects/Consumable/Smokeables/Cigarettes/Packs/purple.rsi
+  - type: EntityTableContainerFill
+    containers:
+      storagebase:
+        id: CigaretteOlive
+        amount: 10
 
 - type: entity
   id: CigPackCandy
@@ -20,10 +21,11 @@
   description: It's sweetened!
   components:
   - type: Sprite
-    sprite: DeltaV/Objects/Consumable/Smokeables/Cigarettes/Packs/pink.rsi
+    sprite: _DV/Objects/Consumable/Smokeables/Cigarettes/Packs/pink.rsi
   - type: Item
-    sprite: DeltaV/Objects/Consumable/Smokeables/Cigarettes/Packs/pink.rsi
-  - type: StorageFill
-    contents:
-    - id: CigaretteCandy
-      amount: 10
+    sprite: _DV/Objects/Consumable/Smokeables/Cigarettes/Packs/pink.rsi
+  - type: EntityTableContainerFill
+    containers:
+      storagebase:
+        id: CigaretteCandy
+        amount: 10
