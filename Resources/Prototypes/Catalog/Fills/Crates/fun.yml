@@ -141,11 +141,10 @@
         - !type:GroupSelector # starcup start
           children:
           - id: Rickenbacker4003Instrument
-            weight: 0.20
           - id: Rickenbacker4003InstrumentBlack
           - id: Rickenbacker4003InstrumentRed
           - id: Rickenbacker4003InstrumentPink
-          - id: Rickenbacker4003InstrumentSlime
+          - id: Rickenbacker4003InstrumentSlime # starcup end
         - id: BanjoInstrument
         - id: ViolinInstrument
         - id: CelloInstrument
