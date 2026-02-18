@@ -73,11 +73,10 @@
   name: holiday lights crate
   description: Deck the halls with these festive holiday lights! Contains twelve red light tubes and twelve green light tubes.
   components:
+  - type: EntityTableContainerFill
     containers:
       entity_storage:
         id: BoxLighttubeHoliday
-  - type: EntityTableContainerFill
-
         amount: 2
 
 - type: entity
