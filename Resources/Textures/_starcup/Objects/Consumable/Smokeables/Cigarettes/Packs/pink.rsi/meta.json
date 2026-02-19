@@ -1,17 +1,20 @@
 ﻿{
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Sprites by Github KittenColony / Discord kittencolony (297865728374210561)",
+  "copyright": "Sprite by ps3moira (github) | Recoloured by KoboldCatgirl (github) based on work by KittenColony (github)",
   "size": {
     "x": 32,
     "y": 32
   },
   "states": [
     {
+      "name": "closed"
+    },
+    {
       "name": "open"
     },
     {
-      "name": "closed"
+      "name": "trash"
     },
     {
       "name": "inhand-left",
@@ -19,6 +22,10 @@
     },
     {
       "name": "inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "equipped-BELT",
       "directions": 4
     }
   ]
