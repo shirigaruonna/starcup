@@ -5,9 +5,9 @@
   description: Your divine right to smoke. Tastes like olives and fake gold.
   components:
   - type: Sprite
-    sprite: _DV/Objects/Consumable/Smokeables/Cigarettes/Packs/purple.rsi
+    sprite: _starcup/Objects/Consumable/Smokeables/Cigarettes/Packs/purple.rsi # starcup
   - type: Item
-    sprite: _DV/Objects/Consumable/Smokeables/Cigarettes/Packs/purple.rsi
+    sprite: _starcup/Objects/Consumable/Smokeables/Cigarettes/Packs/purple.rsi  # starcup
   - type: EntityTableContainerFill
     containers:
       storagebase:
@@ -21,9 +21,9 @@
   description: It's sweetened!
   components:
   - type: Sprite
-    sprite: _DV/Objects/Consumable/Smokeables/Cigarettes/Packs/pink.rsi
+    sprite: _starcup/Objects/Consumable/Smokeables/Cigarettes/Packs/pink.rsi  # starcup
   - type: Item
-    sprite: _DV/Objects/Consumable/Smokeables/Cigarettes/Packs/pink.rsi
+    sprite: _starcup/Objects/Consumable/Smokeables/Cigarettes/Packs/pink.rsi  # starcup
   - type: EntityTableContainerFill
     containers:
       storagebase:

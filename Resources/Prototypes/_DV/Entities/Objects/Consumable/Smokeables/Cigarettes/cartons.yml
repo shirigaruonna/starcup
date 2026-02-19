@@ -5,11 +5,10 @@
   description: A carton containing 6 packets of De Jure.
   components:
   - type: Sprite
-    sprite: _DV/Objects/Consumable/Smokeables/Cigarettes/Cartons/purple.rsi
-    layers:
-      - state: closed
+    sprite: _starcup/Objects/Consumable/Smokeables/Cigarettes/Cartons/purple.rsi # starcup start
+    state: icon
   - type: Item
-    sprite: _DV/Objects/Consumable/Smokeables/Cigarettes/Cartons/purple.rsi
+    sprite: _starcup/Objects/Consumable/Smokeables/Cigarettes/Cartons/purple.rsi # starcup end
   - type: EntityTableContainerFill
     containers:
       storagebase:
@@ -23,11 +22,10 @@
   description: A carton containing 6 packets of Sugar Rush.
   components:
   - type: Sprite
-    sprite: _DV/Objects/Consumable/Smokeables/Cigarettes/Cartons/pink.rsi
-    layers:
-      - state: closed
+    sprite: _starcup/Objects/Consumable/Smokeables/Cigarettes/Cartons/pink.rsi # starcup start
+    state: icon
   - type: Item
-    sprite: _DV/Objects/Consumable/Smokeables/Cigarettes/Cartons/pink.rsi
+    sprite: _starcup/Objects/Consumable/Smokeables/Cigarettes/Cartons/pink.rsi # starcup end
   - type: EntityTableContainerFill
     containers:
       storagebase:
