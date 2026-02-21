@@ -10,12 +10,12 @@
     "states":
     [
         {
-            "name": "paperwork",
+            "name": "dishduty",
             "directions": 4
         },
 
         {
-            "name": "paperwork_dead",
+            "name": "dishduty_dead",
             "directions": 1
         }
     ]
