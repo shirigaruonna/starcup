@@ -23,12 +23,29 @@
 
 - type: entity
   name: Dishduty
-  parent: MobPaperwork
+  parent: MobSloth
   id: MobDishduty
   description: A former corporate enemy on parole for crimes against the Syndicate. She is just as slow as Paperwork.
   components:
   - type: Sprite
+    drawdepth: Mobs
     sprite: _starcup/Mobs/Pets/dishduty.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: dishduty
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: dishduty
+      Critical:
+        Base: dishduty_dead
+      Dead:
+        Base: dishduty_dead
+  - type: Butcherable
+    spawned:
+    - id: FoodMeat
+      amount: 3
+    dropOrgansOnButcher: true
   - type: Grammar
     attributes:
       proper: true
@@ -42,3 +59,5 @@
       path: /Audio/Animals/sloth_squeak.ogg
     interactFailureSound:
       path: /Audio/Misc/Woosh.ogg
+  - type: Puller
+    needsHands: false
