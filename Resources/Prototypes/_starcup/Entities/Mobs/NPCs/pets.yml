@@ -27,6 +27,8 @@
   id: MobDishduty
   description: A former corporate enemy on parole for crimes against the Syndicate. She is just as slow as Paperwork.
   components:
+  - type: Sprite
+    sprite: _starcup/Mobs/Pets/dishduty.rsi
   - type: Grammar
     attributes:
       proper: true

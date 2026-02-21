@@ -31,6 +31,53 @@
 
 - type: entity
   parent: MarkerBase
+  id: SpawnMobEngineeringPet
+  name: Random Engineering Pet Spawner
+  suffix: Engineering Pet
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+    - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+    - MobCrabAtmos
+    - MobPollyParrot
+    - MobPossumPoppy
+
+- type: entity
+  parent: MarkerBase
+  id: SpawnMobSecurityPet
+  name: Random Security Pet Spawner
+  suffix: Security Pet
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+    - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+    - MobSpiderShiva
+    - MobMcGriff
+    - MobBandito
+
+- type: entity
+  parent: MarkerBase
+  id: SpawnMobMedicalPet
+  name: Random Medical Pet Spawner
+  suffix: Medical Pet
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+    - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+    - MobPossumMortyOld
+    - MobWalter
+
+- type: entity
+  parent: MarkerBase
   id: SpawnMobSlothDishduty
   name: Sloth Dishduty Spawner
   suffix: Service Pet
