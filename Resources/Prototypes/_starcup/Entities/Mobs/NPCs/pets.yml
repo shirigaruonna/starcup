@@ -53,3 +53,35 @@
       path: /Audio/Animals/sloth_squeak.ogg
     interactFailureSound:
       path: /Audio/Misc/Woosh.ogg
+
+- type: entity
+  name: Greenstuff
+  parent: MobSnake
+  id: MobGreenstuff
+  description: An exceptionally lazy, scaly friend with a pliant disposition.
+  components:
+  - type: Sprite
+    sprite: _starcup/Mobs/Pets/greenstuff.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: snake
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: snake
+      Critical:
+        Base: snake_dead
+      Dead:
+        Base: snake_dead
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 0.75
+    baseSprintSpeed: 1
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: _starcup/Mobs/Pets/greenstuff.rsi
+    quickEquip: false
+    slots:
+    - NECK
+  - type: InteractionPopup
+    successChance: 0.9
